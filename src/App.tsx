@@ -123,7 +123,7 @@ const App: React.FC = () => {
               </div>
             </div>
           ) : (
-            <p>Select a customer to see details</p>
+            <p>Loading...</p>
           )}
         </div>
       </div>
