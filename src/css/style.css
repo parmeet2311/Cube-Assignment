@@ -1,0 +1,16 @@
+.container {
+  margin: 0 auto 12px;
+  display: flex;
+  max-width: 67rem;
+  width: 100%;
+}
+
+.header {
+  background-color: white;
+  border-bottom: 1px solid rgba(140, 140, 140, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px; /* Subtle shadow for the header */
+  padding: 1.2rem 0;
+  position: sticky; /* Keep header at the top */
+  top: 0;
+  z-index: 10; /* Ensure header stays above other content */
+}

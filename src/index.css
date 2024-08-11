@@ -1,3 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Sf-Pro Font */
+
+@font-face {
+  font-family: "SF-Pro-Regular";
+  src: url("../public/fonts/SF-Pro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF-Pro-Semibold";
+  src: url("../public/fonts/SF-Pro-Display-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF-Pro-Bold";
+  src: url("../public/fonts/SF-Pro-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF-Pro-Medium";
+  src: url("../public/fonts/SF-Pro-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +38,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f4f2ee;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/* Targeting scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the entire scrollbar */
+}
+
+/* Targeting scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #a4a4a4; /* Color of the thumb */
+  border-radius: 4px; /* Rounded corners of the thumb */
+}
+
+/* Optional: Track styles (if needed) */
+::-webkit-scrollbar-track {
+  background: #d3d2d2; /* Color of the track */
 }
